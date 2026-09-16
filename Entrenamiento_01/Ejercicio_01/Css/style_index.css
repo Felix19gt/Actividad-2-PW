@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Segoe UI", "Calibri", sans-serif;;
+    background-color: white;
+}
+
+.cv {
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 5%;
+    border-left: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+    background-color: rgba(171, 230, 99, 0.861);
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 8%;
+}
+
+.datos h1 {
+    margin-top: 0;
+}
+
+.datos p {
+    margin: 0.5em 0;
+}
+
+.foto {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    margin-bottom: 6%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+li {
+    margin-bottom: 1%;
+}
+
+a {
+    color: black;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: #555555;
+}
